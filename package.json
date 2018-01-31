@@ -1,0 +1,19 @@
+{
+  "name": "zackmcintyre",
+  "version": "1.0.0",
+  "description": "haha funny meme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "haha",
+    "meme"
+  ],
+  "author": "zachary mcintrye",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
