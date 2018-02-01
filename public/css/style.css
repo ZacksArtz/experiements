@@ -1,0 +1,29 @@
+.div1 {
+    height: 20vh;
+    width: 10vw;
+    background-color: red;
+    animation-direction: alternate;
+}
+
+.div1:hover {
+    animation-name: moveBox;
+    animation-duration: 3s;
+    animation-direction: alternate;
+
+}
+
+.div2 {
+    height: 20vh;
+    width: 10vw;
+    background-color: green;
+}
+
+.div2:hover {
+    transform: scale(4);
+}
+
+@-webkit-keyframes moveBox {
+    100% {
+        transform: translate(400px, 50px);
+    }
+}
